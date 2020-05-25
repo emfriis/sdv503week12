@@ -2,7 +2,7 @@ class myHashTable {
 
     constructor(size=20) { // Constructor for the hash table, sets default size to 20. 
         this.buckets = new Array(size); // Populates a new array with a number of 'buckets' equal to the given size.
-        this.size = size;
+        this.size = size; // Creates a size property for the hash table.
     };
 
     hash(key) {
